@@ -1,0 +1,16 @@
+{
+  "name": "studentportal",
+  "version": "1.0.0",
+  "description": "This website enables a user to manage the list of students",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel js/* -d transpiled` "
+  },
+  "author": "Manik Chhabra",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
